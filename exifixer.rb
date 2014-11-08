@@ -20,7 +20,7 @@ def process arg
     if path =~ /\.jpe?g$/i
       begin
         time = EXIFR::JPEG.new(path).date_time
-        if time
+        if time && time.is_a?(Time)
           File.utime(time, time, path)
           puts "#{path}: #{time}"
         else
