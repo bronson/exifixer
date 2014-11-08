@@ -3,6 +3,8 @@
 # Recursively finds jpg/jpeg files and converts their filesystem creation
 # times to match the date_time in the exif data.
 
+require 'rubygems'
+require 'bundler/setup'
 require 'exifr'
 require 'find'
 
