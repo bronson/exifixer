@@ -1,19 +1,14 @@
 #!/usr/bin/env ruby
 
-STDOUT.sync = true  # otherwise might not see output until script exits
-
-puts "YO! running. #{Dir.pwd}"
-puts "Aguments: #{ARGV.inspect}"
-
 # Recursively finds jpg/jpeg files and converts their filesystem creation
 # times to match the date_time in the exif data.
 
-require 'rubygems'
-require 'bundler/setup'
+STDOUT.sync = true  # otherwise might not see output until script exits
+
+$LOAD_PATH.unshift './lib'
+
 require 'exifr'
 require 'find'
-
-puts "GOT here."
 
 def log message
   $messages ||= []
