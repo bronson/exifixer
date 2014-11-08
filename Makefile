@@ -1,2 +1,5 @@
-Exifixer.app: Exifixer.platypus Gemfile.lock exifixer.rb
+Exifixer.app: Exifixer.platypus exifixer.rb
 	platypus -y Exifixer.platypus
+
+clean:
+	rm -rf Exifixer.app
