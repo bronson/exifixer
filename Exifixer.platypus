@@ -45,7 +45,7 @@
 	<key>NibPath</key>
 	<string>/usr/local/share/platypus/MainMenu.nib</string>
 	<key>OptimizeApplication</key>
-	<true/>
+	<false/>
 	<key>Output</key>
 	<string>Text Window</string>
 	<key>PromptForFileOnLaunch</key>
