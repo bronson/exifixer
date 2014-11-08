@@ -12,9 +12,7 @@
 	<string>Scott Bronson</string>
 	<key>BundledFiles</key>
 	<array>
-		<string>/Users/bronson/exifixer/Gemfile</string>
-		<string>/Users/bronson/exifixer/Gemfile.lock</string>
-		<string>/Users/bronson/exifixer/vendor</string>
+		<string>/Users/bronson/exifixer/lib</string>
 	</array>
 	<key>Creator</key>
 	<string>Platypus-4.8</string>
