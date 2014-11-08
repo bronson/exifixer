@@ -1,9 +1,11 @@
 ## Exifixer
 
-If your filesystem has screwed up the creation/modification times of
-your JPEGs, and Lightroom is using the wrong times, run the files through
-Exifixer first.  It updates the creation and modification times to match
-the JPEG's EXIF data.
+Updates file creation and modification times to match the EXIF data.
+
+If your filesystem has screwed up the creation or modification times of
+your JPEGs, and your applications getting confused with all the wrong
+times, run your files and directories through Exifixer.
+
 
 ### Usage
 
